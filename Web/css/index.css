@@ -1,0 +1,48 @@
+body{
+    background-color: lightgray;
+    margin-bottom: 3px;
+
+}
+h1{
+    color: darkblue;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+}
+
+p a{
+    text-decoration:none;
+}
+
+div.galery{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 1px solid #0000;
+}
+div.galery#um{
+   
+    width: 16%;
+   
+    
+}
+div.galery#tres{
+    width: 23%;
+}
+
+div.galery :hover {
+    border: 1px solid #777;
+  }
+
+figcaption{
+    text-align: center;
+    color: #777;
+}
+
+figcaption:hover{
+    color: darkblue;
+}
+
