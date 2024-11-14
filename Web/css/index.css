@@ -1,48 +1,26 @@
 body{
-    background-color: lightgray;
-    margin-bottom: 3px;
-
+    background-image: url("../assets/imgs/baixados.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
 }
+
+main{
+    align-items: center;
+    justify-content: center;
+}
+
 h1{
-    color: darkblue;
-    text-align: center;
+    font-family: 'Secular One';
+    color: #fff;
+    font-size: 52px;
 }
 
-p{
-    font-size: 15px;
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 35px;
+        width: 300px;
+        text-align: center;
+    }
 }
-
-p a{
-    text-decoration:none;
-}
-
-div.galery{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    border: 1px solid #0000;
-}
-div.galery#um{
-   
-    width: 16%;
-   
-    
-}
-div.galery#tres{
-    width: 23%;
-}
-
-div.galery :hover {
-    border: 1px solid #777;
-  }
-
-figcaption{
-    text-align: center;
-    color: #777;
-}
-
-figcaption:hover{
-    color: darkblue;
-}
-

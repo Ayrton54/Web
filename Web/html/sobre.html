@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/sobre.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Isso é um comentário :) -->
+    <header>
+        <nav>
+            <div class="menu-icon" onclick="onToggleMenu()">
+                <img src="../assets/menu.svg" width="25" />
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="sinopse.html">Sinopse</a></li>
+                <li><a href="trilha.html">Trilha Sonora</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sobre">
+            <h2>Sobre</h2>
+            <div>
+                <p>Dragon Ball Clássico é a obra que deu início a franquia de sucesso do mangaká, Akira Toriyama. Esta
+                    produção foi inspirada em uma antiga lenda chamada "Jornada para o Oeste". No início, Goku parte
+                    junto a Bulma em busca das Esferas do Dragão, onde acaba vivendo grandes aventuras.</p>
+                <p>Akira Toriyama é famoso por ter criado a franquia Dragon Ball, obra que conta a história de Goku e
+                    Bulma, que se unem para encontrar as Esferas do Dragão, porém, com o passar dos anos, o trabalho do
+                    mangaká tomou outro rumo, tornando-se um dos melhores animes de luta. Akira também tem outros
+                    trabalhos, como por exemplo: Dr. Slump.</p>
+            </div>
+        </section>
+        <section class="containerData">
+            <h2> Dados técnicos </h2>
+            <div class="allData">
+
+                <div>
+                    <h3>Título original</h3>
+                    <p>ドラゴンボール Doragon Bōru</p>
+                </div>
+                <div>
+                    <h3>Título traduzido no inglês</h3>
+                    <p>Dragon Ball</p>
+                </div>
+                <div>
+                    <h3>País</h3>
+                    <p>Japão</p>
+                </div>
+                <div>
+                    <h3>ano (anime)</h3>
+                    <p>1984</p>
+                </div>
+                <div>
+                    <h3>Características</h3>
+                    <p>Animado</p>
+                </div>
+                <div>
+                    <h3>Duração</h3>
+                    <p>153 Episódios</p>
+                </div>
+                <div>
+                    <h3>Autor</h3>
+                    <p>Akira Toriyama</p>
+                </div>
+                <div>
+                    <h3>Distribuidora</h3>
+                    <p>Toei</p>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> Feito na disciplina de desenvolvimento web</p>
+    </footer>
+
+    <script>
+        function onToggleMenu() {
+            var menu = document.querySelector('.menu')
+            menu.classList.toggle('open');
+        }
+    </script>
+</body>
+
+</html>

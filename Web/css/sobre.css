@@ -1,0 +1,143 @@
+body {
+    background-image: url('../assets/imgs/𝙎𝙤𝙣\ 𝙂𝙤𝙠𝙪.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.allData div {
+    width: 250px;
+    background-color: rgba(165, 89, 1, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (min-width: 1240px) {
+    main {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .sobre {
+        width: 30%;
+        margin: 30px;
+    }
+
+    .sobre p {
+        font-size: 25px;
+    }
+
+    .containerData {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 65%;
+    }
+
+    .allData {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre p {
+        font-size: large;
+    }
+
+    main section {
+        margin: 10px;
+        width: 90%;
+    }
+
+    .allData {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+
+
+@media (orientation: landscape) and (min-width: 768px) and (max-width: 1280px) {
+    main {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+    }
+
+    .containerData {
+        width: 50%;
+    }
+
+    .allData {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .allData div {
+        width: 150px;
+    }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section {
+        margin: 10px;
+        width: 90%;
+    }
+
+    .allData {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section {
+        margin: 10px;
+        width: 90%;
+    }
+
+    .allData {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .allData div {
+        margin-bottom: 20px;
+        width: auto;
+    }
+}
